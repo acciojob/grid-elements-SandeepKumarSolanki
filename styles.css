@@ -1,1 +1,13 @@
 /*  your css code here. If applicable */
+.grid-container{
+	display : grid;
+	grid-template-columns : repeat(3,1fr);
+	grid-template-rows : reapeat(2,1);
+	gap:3px;
+}
+.item{
+	height : 60px;
+	background-color : #f2f2f2;
+	border : 1px solid #ccc;
+	text-align : center;
+}
