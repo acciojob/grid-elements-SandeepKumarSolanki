@@ -5,7 +5,7 @@
 	grid-template-rows : reapeat(2,1);
 	gap:3px;
 }
-.item{
+.grid-item{
 	height : 60px;
 	background-color : #f2f2f2;
 	border : 1px solid #ccc;
